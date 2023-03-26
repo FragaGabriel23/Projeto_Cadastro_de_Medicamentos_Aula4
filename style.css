@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    background: #76BEBE;
+    align-items: center;
+
+    color: #F5F5F5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 38px;
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #ffffff;
+}
+
+header h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 75px;
+    color: #CF509C;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 0;
+}
+
+header img {
+    margin: auto 0 auto auto;
+}
+
+section {
+    background: #f4e9f2;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 3rem 3rem 3rem 6rem;
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 34px;
+    color: #000000;
+    margin-top: 1rem;
+}
+
+form input {
+    height: 3rem;
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    border: 0;
+    padding-left: 2rem;
+}
+
+
+
+form button {
+    background: #76BEBE;
+    height: 3rem;
+    width: 15rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    border: 0;
+    margin: 2rem auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 46px;
+    color: #ffffff;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 3rem;
+    height: 0%;
+}
+
+thead th {
+    background: #3E3D3D;
+    border: 3px solid #767373;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 34px;
+    color: #ffffff;
+}
+
+
+tbody tr td{
+    height: 13px;
+    background: rgba(255, 255, 255, 0.57);
+    border: 2px solid #767373;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rempx;
+    color: #000000;
+    text-align: center;
+}
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro de Medicamentos </title>
+    <link rel="stylesheet" href="style.css">
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <h1> Home </h1>
+        <h1> Cadastro<br>de Medicamentos </h1>
+        <h1> Cadastro<br>de Vacinas </h1>
+        <h1> Cadastro<br>de Cosméticos </h1>
+    </nav>
+    <header>
+        <img src="img/remedios.svg" alt="Logo Remedios">
+        <div>
+            <h1>Cadastro de Medicamentos</h1>
+            <h2>Farmácia da Gente</h2>
+        </div>
+    </header>
+
+    <section>
+        <form onsubmit="Cadastrar()">
+            <label for="nome">Nome do Medicamento*</label>
+            <input autocomplete="off" type="text" name="nome" id="nomeMedicamento" required placeholder="Bompragrip">
+
+            <label for="qtd">Quantidade Disponível*</label>
+            <input autocomplete="off" type="text" name="qtd" id="qtd" required placeholder="100">
+
+            <label for="classe">Classe de Medicamento*</label>
+            <input autocomplete="off" type="text" name="classe" id="classe" required placeholder="Antibiótico">
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Medicamento</th>
+                    <th>Quantidade</th>
+                    <th>Classe de Medicamento</th>
+                    <th>Remover</th>
+                </tr>
+            </thead>
+
+            <!-- <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>1sdfdsfdsefsd</td>
+                    <td>100</td>
+                    <td>dsfsdfdfgs</td>
+                    <td>img</td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>1sdfdsfdsefsd</td>
+                    <td>100</td>
+                    <td>dsfsdfdfgs</td>
+                    <td>img</td>
+                </tr> 
+
+            </tbody> -->
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
